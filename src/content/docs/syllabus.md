@@ -66,8 +66,36 @@ description: 딥러닝자연어처리 (131307379A) 2026-2
 
 ## 교재
 
-- _Speech and Language Processing_ (3rd ed.) - Jurafsky & Martin (공개 초안)
-- Hugging Face Transformers 공식 문서 및 코스
+주교재
+
+- **_Speech and Language Processing_ 3판** - Jurafsky & Martin. **2026-01 완본**, 공개 PDF 무료
+  - 이 과목은 **7~11장**을 쓴다. 선수과목이 1~9장을 다루므로 같은 책의 후반부로 이어진다
+- **_Foundations of Large Language Models_** - Xiao & Zhu, 277쪽. arXiv:2501.09223. 무료
+  - 정렬(RLHF·보상모델)의 깊이가 크다
+
+부교재
+
+- **_NLP with Transformers_ 실습 노트북** - Colab 대응 12개. 무료. 책 본문은 별도 유료 저작물이다
+- **Hugging Face Course** 11장·12장. 영문
+
+### 주차별 읽기 범위
+
+FoLM = Foundations of LLM.
+
+| 주 | 읽기 |
+|---|---|
+| 1 | SLP3 ch8 + 상태공간모델 논문(Mamba·RWKV·Jamba) |
+| 2 | SLP3 ch6 Neural Networks |
+| 3 | SLP3 ch10 + FoLM 4장 + LoRA·QLoRA 원전 |
+| 4 | SLP3 ch7 + FoLM 3장 Prompting |
+| 5 | SLP3 ch4.10, ch4.11, ch11.6 + pass@k 원전 |
+| 6 | CLIP·Flamingo·LLaVA 논문 |
+| 7 | FoLM 2장·5장 + Lost in the Middle |
+| 9 | SLP3 ch11 Retrieval-based Models |
+| 10 | SLP3 ch10.1~10.3 + FoLM 4장 + 정렬 계보 논문 |
+| 11 | SLP3 ch10.4 + FoLM 5장 + 과정 감독 논문 |
+
+8·12·13·14·15주차는 지정 장이 없다. 논문과 공식 문서로 진행한다.
 
 ## 실습 환경
 
